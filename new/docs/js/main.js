@@ -358,7 +358,9 @@ $(document).ready(function () {
                 function ifChicago() {
                     parentContact.removeChild(currentOpen);
                     parentContact.appendChild(oldOpen);
-
+                    
+                    
+                     
                     const
                         centerElements = document.querySelectorAll(".open__item-text.center"),
                         firstOpenItemText = document.querySelector(".firstOpenItemText");
@@ -406,12 +408,14 @@ $(document).ready(function () {
                     visibleTab.style.display = "none";
 
                     sessionStorage.setItem("selectCity", "Chicago");
+                
                 }
 
                 function ifAugustine() {
+                 
                     parentContact.removeChild(currentOpen);
                     parentContact.appendChild(newOpen);
-                   
+
                     const
                         centerElements = document.querySelectorAll(".open__item-text.center"),
                         firstOpenItemText = document.querySelector(".firstOpenItemText");
@@ -429,10 +433,9 @@ $(document).ready(function () {
                     allTab.forEach(item => {
                         item.setAttribute("style", "width: 50%;");
                     });
-                    // allRemoveTab.forEach(item => {
-                    //     item.style.display = "none";
-                    // });
-                    
+                    allRemoveTab.forEach(item => {
+                        item.style.display = "none";
+                    });
                     allFullRemoveTab.forEach(item => {
                         saveFullRemoveTab.push(item);
                         item.parentNode.removeChild(item);
@@ -443,6 +446,9 @@ $(document).ready(function () {
                     visibleTab.querySelector(".dablticket .blockHover").style.transform = "translateY(-51%)";
 
                     sessionStorage.setItem("selectCity", "St. Augustine");
+                  
+
+                    
                 }
 
                 setTimeout(() => {
