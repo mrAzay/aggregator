@@ -411,7 +411,7 @@ $(document).ready(function () {
                 function ifAugustine() {
                     parentContact.removeChild(currentOpen);
                     parentContact.appendChild(newOpen);
-
+                   
                     const
                         centerElements = document.querySelectorAll(".open__item-text.center"),
                         firstOpenItemText = document.querySelector(".firstOpenItemText");
@@ -429,9 +429,10 @@ $(document).ready(function () {
                     allTab.forEach(item => {
                         item.setAttribute("style", "width: 50%;");
                     });
-                    allRemoveTab.forEach(item => {
-                        item.style.display = "none";
-                    });
+                    // allRemoveTab.forEach(item => {
+                    //     item.style.display = "none";
+                    // });
+                    
                     allFullRemoveTab.forEach(item => {
                         saveFullRemoveTab.push(item);
                         item.parentNode.removeChild(item);
