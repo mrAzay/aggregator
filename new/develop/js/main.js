@@ -246,6 +246,154 @@ $(document).ready(function () {
                     visibleTab.style.display = "none";
 
                     sessionStorage.setItem("selectCity", "Chicago");
+
+                    $('.slider4').slick('unslick');
+                    document.querySelector('.slider4').innerHTML = `	
+                    <div class="slider4_item animate__animated animate__fadeIn animate__slower">
+					<picture>
+						<source class="img" srcset="images/webp/museum2.webp" type="image/webp">
+
+						<img class="img" src="images/png/museum2.png" alt="museum" title="museum">
+					</picture>
+					<div class="slider_item-link">
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="slider4_item animate__animated animate__fadeIn animate__slower">
+					<picture>
+						<source class="img" srcset="images/webp/museum5.webp" type="image/webp">
+
+						<img class="img" src="images/png/museum5.png" alt="museum" title="museum">
+					</picture>
+					<div class="slider_item-link">
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="slider4_item removeSlick animate__animated animate__fadeIn animate__slower">
+					<picture>
+						<source class="img" srcset="images/webp/museum24.webp" type="image/webp">
+
+						<img class="img" src="images/png/museum24.png" alt="museum" title="museum">
+					</picture>
+					<div class="slider_item-link">
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="slider4_item removeSlick animate__animated animate__fadeIn animate__slower">
+					<picture>
+						<source class="img" srcset="images/webp/museum11.webp" type="image/webp">
+
+						<img class="img" src="images/png/museum11.png" alt="museum" title="museum">
+					</picture>
+					<div class="slider_item-link">
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="slider4_item animate__animated animate__fadeIn animate__slower">
+					<picture>
+						<source class="img" srcset="images/webp/museum1.webp" type="image/webp">
+
+						<img class="img" src="images/png/museum1.png" alt="museum" title="museum">
+					</picture>
+					<div class="slider_item-link">
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="slider4_item animate__animated animate__fadeIn animate__slower">
+					<picture>
+						<source class="img" srcset="images/webp/museum7.webp" type="image/webp">
+
+						<img class="img" src="images/png/museum7.png" alt="museum" title="museum">
+					</picture>
+					<div class="slider_item-link">
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="slider4_item removeSlick animate__animated animate__fadeIn animate__slower">
+					<picture>
+						<source class="img" srcset="images/webp/museum22.webp" type="image/webp">
+
+						<img class="img" src="images/png/museum22.png" alt="museum" title="museum">
+					</picture>
+					<div class="slider_item-link">
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="slider4_item removeSlick animate__animated animate__fadeIn animate__slower">
+					<picture>
+						<source class="img" srcset="images/webp/museum10.webp" type="image/webp">
+
+						<img class="img" src="images/png/museum10.png" alt="museum" title="museum">
+					</picture>
+					<div class="slider_item-link">
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="slider4_item animate__animated animate__fadeIn animate__slower">
+					<picture>
+						<source class="img" srcset="images/webp/museum9.webp" type="image/webp">
+
+						<img class="img" src="images/png/museum9.png" alt="museum" title="museum">
+					</picture>
+					<div class="slider_item-link">
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="slider4_item animate__animated animate__fadeIn animate__slower">
+					<picture>
+						<source class="img" srcset="images/webp/museum8.webp" type="image/webp">
+
+						<img class="img" src="images/png/museum8.png" alt="museum" title="museum">
+					</picture>
+					<div class="slider_item-link">
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="slider4_item removeSlick animate__animated animate__fadeIn animate__slower">
+					<picture>
+						<source class="img" srcset="images/webp/museum15.webp" type="image/webp">
+
+						<img class="img" src="images/png/museum15.png" alt="museum" title="museum">
+					</picture>
+					<div class="slider_item-link">
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="slider4_item removeSlick animate__animated animate__fadeIn animate__slower">
+					<picture>
+						<source class="img" srcset="images/webp/museum18.webp" type="image/webp">
+
+						<img class="img" src="images/png/museum18.png" alt="museum" title="museum">
+					</picture>
+					<div class="slider_item-link">
+						<a href="#">Learn More</a>
+					</div>
+				</div>`
+                    $('.slider4').slick({
+                        infinite: true,
+                        slidesToShow: 4,
+                        centerPadding: '8.5rem',
+                        centerMode: true,
+                        dots: true,
+                        arrows: true,
+                        swipeToSlide: true,
+                        responsive: [
+                            {
+                                breakpoint: 1270,
+                                settings: {
+                                    slidesToShow: 3,
+                                }
+                            },
+                            {
+                                breakpoint: 900,
+                                settings: {
+                                    slidesToShow: 2,
+                                    centerPadding: '15.5rem',
+                                },
+                            }
+                    
+                        ]
+                    })
                 
                 }
 
@@ -284,9 +432,93 @@ $(document).ready(function () {
                     visibleTab.querySelector(".dablticket .blockHover").style.transform = "translateY(-51%)";
 
                     sessionStorage.setItem("selectCity", "St. Augustine");
-                  
+                    $('.slider4').slick('unslick');
+                    document.querySelector('.slider4').innerHTML = `	
+                    <div class="slider4_item animate__animated animate__fadeIn animate__slower">
+					    <picture>
+					    	<source class="img" srcset="images/webp/museum2.webp" type="image/webp">
 
+					    	<img class="img" src="images/png/museum2.png" alt="museum" title="museum">
+					    </picture>
+					    <div class="slider_item-link">
+					    	<a href="#">Learn More</a>
+					    </div>
+				    </div>
+				    <div class="slider4_item animate__animated animate__fadeIn animate__slower">
+				        	<picture>
+				        		<source class="img" srcset="images/webp/museum5.webp" type="image/webp">
+
+				        		<img class="img" src="images/png/museum5.png" alt="museum" title="museum">
+				        	</picture>
+				        	<div class="slider_item-link">
+				        		<a href="#">Learn More</a>
+				        	</div>
+				    </div>
+				    <div class="slider4_item animate__animated animate__fadeIn animate__slower">
+				        	<picture>
+				        		<source class="img" srcset="images/webp/museum1.webp" type="image/webp">
+
+				        		<img class="img" src="images/png/museum1.png" alt="museum" title="museum">
+				        	</picture>
+				        	<div class="slider_item-link">
+				        		<a href="#">Learn More</a>
+				        	</div>
+				    </div>
+				    <div class="slider4_item animate__animated animate__fadeIn animate__slower">
+				        	<picture>
+				        		<source class="img" srcset="images/webp/museum7.webp" type="image/webp">
+
+				        		<img class="img" src="images/png/museum7.png" alt="museum" title="museum">
+				        	</picture>
+				        	<div class="slider_item-link">
+				        		<a href="#">Learn More</a>
+				        	</div>
+				    </div>
+				    <div class="slider4_item animate__animated animate__fadeIn animate__slower">
+				        	<picture>
+				        		<source class="img" srcset="images/webp/museum9.webp" type="image/webp">
+
+				        		<img class="img" src="images/png/museum9.png" alt="museum" title="museum">
+				        	</picture>
+				        	<div class="slider_item-link">
+				        		<a href="#">Learn More</a>
+				        	</div>
+				    </div>
+				    <div class="slider4_item animate__animated animate__fadeIn animate__slower">
+				        	<picture>
+				        		<source class="img" srcset="images/webp/museum8.webp" type="image/webp">
+
+				        		<img class="img" src="images/png/museum8.png" alt="museum" title="museum">
+				        	</picture>
+				        	<div class="slider_item-link">
+				        		<a href="#">Learn More</a>
+				        	</div>
+				    </div>`
+                    $('.slider4').slick({
+                        infinite: true,
+                        slidesToShow: 4,
+                        centerPadding: '8.5rem',
+                        centerMode: true,
+                        dots: true,
+                        arrows: true,
+                        swipeToSlide: true,
+                        responsive: [
+                            {
+                                breakpoint: 1270,
+                                settings: {
+                                    slidesToShow: 3,
+                                }
+                            },
+                            {
+                                breakpoint: 900,
+                                settings: {
+                                    slidesToShow: 2,
+                                    centerPadding: '15.5rem',
+                                },
+                            }
                     
+                        ]
+                    })
                 }
 
                 setTimeout(() => {
