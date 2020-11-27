@@ -257,6 +257,7 @@ span{
 	background-color: #f02626;
 	border-radius: 50%;
 }
+
 /* SECTION2 */
 .slider4{
 	margin-top: 104px;
@@ -1003,6 +1004,9 @@ footer{
 	font-family: sans-serif;
 	display: block;
 }
+.open{
+	height: 100%;
+}
 .open__item{
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -1014,7 +1018,7 @@ footer{
 	margin-bottom: .55rem;
 }
 .open__item-text{
-	font-size: 1.25rem;
+	font-size: 1.05rem;
 	font-weight: 300;
 	line-height: 1.222;
 	letter-spacing: .1em;
