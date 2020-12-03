@@ -491,6 +491,7 @@ li.slick-active {
 	        align-items: center;
 	position: relative;
 	width: 100%;
+	padding-bottom: 10px;
 	display: none;
 	height: auto;
 		section {
@@ -529,6 +530,9 @@ section::-webkit-scrollbar {
 }
 .tab1__cont:nth-last-of-type(1) {
 	margin-bottom: 40px;
+}
+.tab1__cont:last-child {
+	margin-bottom: 0;
 }
 .tab-block {
 	display: flex;
