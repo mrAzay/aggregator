@@ -360,7 +360,7 @@ $(document).ready(function () {
                     parentContact.appendChild(oldOpen);
                     
                     //$('body').css('background-image', 'url(../images/png/chicago.png)');
-                    $('body').css('background-image', 'url(../images/jpg/st-aug.jpg)');
+                    $('body').css('background-image', 'url(images/jpg/st-aug.jpg)');
                      
                     const
                         centerElements = document.querySelectorAll(".open__item-text.center"),
@@ -565,7 +565,7 @@ $(document).ready(function () {
                     parentContact.removeChild(currentOpen);
                     parentContact.appendChild(newOpen);
 
-                    $('body').css('background-image', 'url(../images/jpg/st-aug.jpg)');
+                    $('body').css('background-image', 'url(images/jpg/st-aug.jpg)');
 
                     const
                         centerElements = document.querySelectorAll(".open__item-text.center"),
