@@ -359,7 +359,8 @@ $(document).ready(function () {
                     parentContact.removeChild(currentOpen);
                     parentContact.appendChild(oldOpen);
                     
-                    $('body').css('background-image', 'url(../images/png/chicago.png)');
+                    //$('body').css('background-image', 'url(../images/png/chicago.png)');
+                    $('body').css('background-image', 'url(../images/jpg/st-aug.jpg)');
                      
                     const
                         centerElements = document.querySelectorAll(".open__item-text.center"),
