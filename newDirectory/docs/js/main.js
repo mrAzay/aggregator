@@ -834,8 +834,8 @@ let reviewCommentMore = document.querySelectorAll('.tab__content .tab__more')
 
 reviewCommit.forEach(item => {
 
-    if (item.querySelector('.tab__text').innerHTML.length > 60) {
-        item.querySelector('.tab__text').innerHTML = item.querySelector('.tab__text').innerHTML.slice(0, 60) + '...'
+    if (item.querySelector('.tab__text').innerHTML.length > 45) {
+        item.querySelector('.tab__text').innerHTML = item.querySelector('.tab__text').innerHTML.slice(0, 45) + '...'
     }
 })
 
@@ -863,8 +863,9 @@ let reviewCommentMoreMobile = document.querySelectorAll('.article__item-content 
 
 reviewCommitMobile.forEach(item => {
 
-    if (item.querySelector('.article__item-text').innerHTML.length > 75) {
+    if (item.querySelector('.article__item-text').innerHTML.length > 70) {
         item.querySelector('.article__item-text').innerHTML = item.querySelector('.article__item-text').innerHTML.slice(0, 120) + '...'
+        console.log(item.querySelector('.article__item-text').innerHTML);
     } 
 })
 
