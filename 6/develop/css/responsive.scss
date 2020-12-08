@@ -14,6 +14,11 @@
 	}
 }
 
+@media screen and (max-width: 730px) {
+	.article__item-name {
+		font-size: 10px;
+	}
+}
 
 @media only screen and (max-height: 697px) {
 	.section1__bottom{
