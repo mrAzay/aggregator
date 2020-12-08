@@ -717,7 +717,6 @@ reviewCommitMobile.forEach(item => {
 
     if (item.querySelector('.article__item-text').innerHTML.length > 70) {
         item.querySelector('.article__item-text').innerHTML = item.querySelector('.article__item-text').innerHTML.slice(0, 120) + '...'
-        console.log(item.querySelector('.article__item-text').innerHTML);
     } 
 })
 

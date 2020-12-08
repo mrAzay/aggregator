@@ -726,7 +726,6 @@ section::-webkit-scrollbar {
 	line-height: 1.333;
 	text-align: center;
     /*margin-top: 3.75rem;*/
-    margin-bottom: 16px;
 }
 .page__cell-feedback + a {
 	display: block;
@@ -737,7 +736,8 @@ section::-webkit-scrollbar {
 /* SECTION3 */
 /* SECTION4 */
 .page__cell-headline{
-	margin: 70px auto 32px;
+	padding-top: 70px;
+	margin: 0 auto 32px;
 	font-size: 38px;
 	color: #000;
 	text-transform: uppercase;
@@ -1151,6 +1151,10 @@ footer * {
 
 .review-star.trip svg+svg{
 	margin-left: 5px;
+}
+
+#allAttractionsUnderOneRoof {
+	padding-top: 16px;
 }
 
 @import "css/nice-select";
