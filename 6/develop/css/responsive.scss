@@ -506,6 +506,15 @@
 	.bg {
 		width: 100%;
 	}
+	.open__item {
+		margin-bottom: .1rem;
+	}
+	.open__item:nth-last-of-type(1) {
+		margin-bottom: 20px;
+	}
+	.contact {
+		align-items: inherit;
+	}
 }
 @media screen and (max-width: 700px) {
 	html{
