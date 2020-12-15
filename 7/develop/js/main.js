@@ -686,8 +686,8 @@ let reviewCommentMore = document.querySelectorAll('.tab__content .tab__more')
 
 reviewCommit.forEach(item => {
 
-    if (item.querySelector('.tab__text').innerHTML.length > 45) {
-        item.querySelector('.tab__text').innerHTML = item.querySelector('.tab__text').innerHTML.slice(0, 45) + '...'
+    if (item.querySelector('.tab__text').innerHTML.length > 30) {
+        item.querySelector('.tab__text').innerHTML = item.querySelector('.tab__text').innerHTML.slice(0, 30) + '...'
     }
 })
 
