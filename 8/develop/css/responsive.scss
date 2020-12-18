@@ -290,7 +290,6 @@
 
 
 	.wraper article {
-		position: relative;
 		width: 100%;
 		display: none;
 	}
@@ -389,9 +388,9 @@
 		color: #a2a2a2;
 	}
 	.article__cont{
-		overflow-x: hidden;
+		overflow: scroll;
 		padding-bottom: 3rem;
-		min-height: 449px;
+		height: 239px;
 	}
 	.buttom-reserve, .btn__enjoy {
 		font-size: 18px;
